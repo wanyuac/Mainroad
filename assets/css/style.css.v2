@@ -125,13 +125,13 @@ textarea {
 	line-height: inherit;
 }
 
-/* Button (TAGS and SOCIAL) */
+/* Button */
 .btn {
 	padding: 5px 10px;
 	font-weight: 700;
-	color: #000000;
+	color: #fff;
 	white-space: pre-line;
-	background: #e9e7ef;
+	background: #2a2a2a;
 }
 
 .btn:hover {
@@ -291,8 +291,8 @@ pre code {
 
 kbd {
 	padding: 2px 3px;
-	color: #000000;
-	background-color: #e9e7ef;
+	color: #fff;
+	background-color: #2a2a2a;
 }
 
 blockquote {
@@ -430,7 +430,7 @@ select {
 	padding: 0;
 	font: inherit;
 	color: #fff;
-	background: #17507d;
+	background: #2a2a2a;
 	border: 0;
 	outline: 0;
 }
@@ -470,7 +470,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .menu__list {
 	list-style: none;
-	background: #17507d;
+	background: #2a2a2a;
 }
 
 .menu__item:hover {
@@ -704,7 +704,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	font-size: 12px;
 	font-size: .75rem;
 	line-height: 1;
-	color: #000000;
+	color: #fff;
 }
 
 .tags__list {
@@ -716,7 +716,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin: 0 6px 6px 0;
 	margin: 0 .375rem .375rem 0;
 	text-transform: uppercase;
-	background: #e9e7ef;
+	background: #2a2a2a;
 }
 
 .tags__item:hover {
@@ -762,7 +762,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	-ms-user-select: none;
 	-o-user-select: none;
 	user-select: none;
-	background: #17507d;
+	background: #2a2a2a;
 }
 
 .toc__menu ul {
@@ -990,7 +990,7 @@ input[type=reset] {
 	color: #fff;
 	text-transform: uppercase;
 	cursor: pointer;
-	background: #17507d;
+	background: #2a2a2a;
 	border: 0;
 	transition: all .1s linear;
 	-webkit-appearance: none;
@@ -1119,7 +1119,7 @@ textarea {
 	font-size: 12px;
 	font-size: .75rem;
 	color: #999;
-	background: #17507d;
+	background: #2a2a2a;
 	border-top: 3px solid #999;
 }
 
