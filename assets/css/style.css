@@ -992,7 +992,7 @@ input[type=reset] {
 	color: #fff;
 	text-transform: uppercase;
 	cursor: pointer;
-	background: #17507d;
+	background: {{ $menuColour }};
 	border: 0;
 	transition: all .1s linear;
 	-webkit-appearance: none;
@@ -1120,8 +1120,8 @@ textarea {
 	padding: 10px 25px;
 	font-size: 12px;
 	font-size: .75rem;
-	color: #999;
-	background: #17507d;
+	color: #000000;
+	background: {{ $menuColour }};;
 	border-top: 3px solid #999;
 }
 
@@ -1138,7 +1138,7 @@ textarea {
 }
 
 .footer a {
-	color: #fff;
+	color: {{ $highlightColor }};
 }
 
 .footer a:hover {
